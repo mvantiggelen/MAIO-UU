@@ -11,14 +11,15 @@ Open a terminal (macOS) or an anaconda prompt (Windows):
 
 Create a new conda environment named "sebmodel" with python installed, and activate it:
 ```bash
-conda create -n sebmodel python=3.9.2
-conda activate sebmodel
+conda create -n MAIO python=3.9.2
+conda activate MAIO
 ```
 Note that Python version 3.9.2 is required for compatilibity with the numba package (on March 2022).
 
 Install the required Python packages:
 
 ```bash
-conda install numpy pandas xarray netcdf4 scipy
+conda install numpy pandas xarray netcdf4 scipy ipykernel 
+
 ```
 This can take a few minutes.
