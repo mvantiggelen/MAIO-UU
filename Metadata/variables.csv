@@ -1,0 +1,82 @@
+field,standard_name,long_name,units,lo,hi
+batt_v_1,battery_voltage,Battery voltage (AWS logger),V,0,30
+t_1,air_temperature,Air temperature (AWS sensor 1),degrees_C,-80,40
+t_2,air_temperature,Air temperature (AWS sensor 2),degrees_C,-80,40
+t_3,air_temperature,Air temperature (AWS sensor 3),degrees_C,-80,40
+t_4,air_temperature,Air temperature (AWS sensor 4),degrees_C,-80,40
+t_5,air_temperature,Air temperature (AWS sensor 5),degrees_C,-80,40
+t_log_1,temperature_of_logger,Logger panel temperature (AWS),degrees_C,-80,40
+rh_1,relative_humidity,Relative humidity (AWS sensor 1),%,0,150
+rh_2,relative_humidity,Relative humidity (AWS sensor 2),%,0,150
+rh_3,relative_humidity,Relative humidity (AWS sensor 3),%,0,150
+rh_4,relative_humidity,Relative humidity (AWS sensor 4),%,0,150
+rh_5,relative_humidity,Relative humidity (AWS sensor 5),%,0,150
+wspd_1,wind_speed,Wind speed (AWS sensor 1),m s-1,0,100
+wspd_2,wind_speed,Wind speed (AWS sensor 2),m s-1,0,100
+wspd_3,wind_speed,Wind speed (AWS sensor 3),m s-1,0,100
+wspd_4,wind_speed,Wind speed (AWS sensor 4),m s-1,0,100
+wspd_5,wind_speed,Wind speed (AWS sensor 5),m s-1,0,100
+wdir_1,wind_from_direction,Wind from direction (AWS sensor 1),degrees,0,360
+wdir_2,wind_from_direction,Wind from direction (AWS sensor 2),degrees,0,360
+wdir_3,wind_from_direction,Wind from direction (AWS sensor 3),degrees,0,360
+wdir_4,wind_from_direction,Wind from direction (AWS sensor 4),degrees,0,360
+wdir_5,wind_from_direction,Wind from direction (AWS sensor 5),degrees,0,360
+swd_1,surface_downwelling_shortwave_flux,Downwelling shortwave radiation (CNR1 on AWS),W m-2,-10,1500
+swu_1,surface_upwelling_shortwave_flux,Upwelling shortwave radiation (CNR1 on AWS),W m-2,-10,1000
+lwd_1,surface_downwelling_longwave_flux,Downwelling longwave radiation (CNR1 on AWS),W m-2,50,500
+lwu_1,surface_upwelling_longwave_flux,Upwelling longwave radiation (CNR1 on AWS),W m-2,50,500
+t_rad_1,temperature_of_radiation_sensor,Radiation sensor temperature (CNR1 on AWS),degrees_C,-80,40
+batt_v_0,battery_voltage,Battery voltage (iWS logger),V,0,30
+swd_0,surface_downwelling_shortwave_flux,Downwelling shortwave radiation (CNR4 on iWS),W m-2,-10,1500
+swd_0_std,standard_deviation_of_surface_downwelling_shortwave_flux,Standard deviation of downwelling shortwave radiation (CNR4 on iWS),W m-2,-10,1500
+swu_0,surface_upwelling_shortwave_flux,Upwelling shortwave radiation (CNR4 on iWS),W m-2,-10,1000
+lwd_0,surface_downwelling_longwave_flux,Downwelling longwave radiation (CNR4 on iWS),W m-2,50,500
+lwu_0,surface_upwelling_longwave_flux,Upwelling longwave radiation (CNR4 on iWS),W m-2,50,500
+t_rad_0,temperature_of_radiation_sensor,Radiation sensor temperature (CNR4 on iWS),degrees_C,-80,40
+p_0,air_pressure,Air pressure (iWS),hPa,650,1100
+t_0,air_temperature,Air temperature (iWS),degrees_C,-80,40
+t_log_0,temperature_of_logger,Cold junction temperature (iWS),degrees_C,-80,40
+rh_0,relative_humidity,Relative humidity (iWS),%,0,150
+wspd_0,wind_speed,Wind speed (iWS),m s-1,0,100
+wspd_0_max,wind_speed_of_gust,Max wind speed based on 4s measurements(iWS),m s-1,0,100
+wspd_0_std,standard_deviation_of_wind_speed,Standard deviation of wind speed based on 4s measurements(iWS),m s-1,0,100
+wdir_0,wind_from_direction,Wind from direction (iWS),degrees,1,360
+tilt_x,platform_view_angle_x,Tilt to x-direction (iWS),degrees,-30,30
+tilt_y,platform_view_angle_y,Tilt to y-direction (iWS),degrees,-30,30
+zm,distance_to_surface_from_boom,iWS sensor boom height,m,0.3,10
+uu,variance_of_x_wind,variance of horizontal wind speed in x direction (CSAT3),m2 s-2,,
+uv,covariance_of_x_wind_and_y_wind,covariance of horizontal wind speed in x-direction with horizontal wind in y-direction (CSAT3),m2 s-2,,
+uw,covariance_of_x_wind_and_z_wind,covariance of horizontal wind speed in x-direction with vertical wind in z-direction (CSAT3),m2 s-2,,
+uTs,covariance_of_x_wind_and_air_temperature,covariance of horizontal wind speed in x-direction with sonic air temperature (CSAT3),m s-1 K,,
+uTc1,covariance_of_x_wind_and_air_temperature,covariance of horizontal wind speed in x-direction with thermocouple 1 air temperature (CSAT3),m s-1 K,,
+uH2O,covariance_of_x_wind_and_mass_concentration_of_water_vapor,covariance of horizontal wind speed in x-direction (CSAT3) with H20 mass concentration (LI-7500),m s-1 kg m-3,,
+vH2O,covariance_of_y_wind_and_mass_concentration_of_water_vapor,covariance of horizontal wind speed in y-direction (CSAT3) with H20 mass concentration (LI-7500),m s-1 kg m-3,,
+vv,variance_of_y_wind,variance of horizontal wind speed in y direction (CSAT3),m,,
+vw,covariance_of_y_wind_and_z_wind,covariance of horizontal wind speed in x-direction with vertical wind in z-direction (CSAT3),m2 s-2,,
+vTs,covariance_of_y_wind_and_air_temperature,covariance of horizontal wind speed in x-direction with sonic air temperature (CSAT3),m2 s-2,,
+vTc1,covariance_of_y_wind_and_air_temperature,covariance of horizontal wind speed in x-direction with thermocouple 1 air temperature (CSAT3),m s-1 K,,
+wH2O,covariance_of_y_wind_and_mass_concentration_of_water_vapor,covariance of horizontal wind speed in x-direction (CSAT3) with H20 mass concentration (LI-7500),m s-1 kg m-3,,
+ww,variance_of_z_wind,variance of vertical wind speed in z direction (CSAT3),m2 s-2,,
+wTs,covariance_of_z_wind_and_air_temperature,covariance of vertical wind speed in z-direction with sonic air temperature (CSAT3),m2 s-2,,
+wTc1,covariance_of_z_wind_and_air_temperature,covariance of vertical wind speed in z-direction with thermocouple 1 air temperature (CSAT3),m s-1 K,,
+TsTs,variance_of_air_temperature,variance of sonic air temperature (CSAT3),K2,,
+Tc1Tc1,variance_of_air_temperature,variance of thermocouple 1 air temperature,K2,,
+H2OH2O,variance_of_mass_concentration_of_water_vapor,variance of mass concentration of of H20 (LI-7500),kg2 m-6,,
+u,x_wind,horizontal wind speed in x-direction (CSAT3),m s-1,,
+v,y_wind,horizontal wind speed in y-direction (CSAT3),m s-1,,
+w,z_wind,vertical wind speed in z-direction (CSAT3),m s-1,,
+Ts,air_temperature, sonic air temperature (CSAT3),degrees_C,,
+Tc1,air_temperature, air temperature from thermocouple 1,degrees_C,,
+H2O,mass_concentration_of_water_vapor,mass concentration of of H20 (LI-7500),kg m-3,,
+Uy,wind_speed,horizontal wind speed (Young propeller anemometer on flux station),m s-1,0,100
+WDy,wind_from_direction,Wind from direction (Young propeller anemometer on flux station),degrees,0,360
+WDyWDy,variance_of_wind_from_direction,variance of wind direction (Young propeller anemometer on flux station),degrees2,,
+wgwg,variance_of_z_wind,variance of vertical wind speed in z direction (Gill vertical propeller on flux station),m2 s-2,,
+wguy,covariance_of_wind_speed_and_z_wind,covariance of horizontal wind speed (Young anemometer on flux station) with vertical wind in z-direction (Gill anemometer on flux station),m2 s-2,,
+wgTc2,covariance_of_z_wind_and_air_temperature,covariance of vertical wind speed in z-direction (Gill anemometer on flux station) with thermocouple 2 air temperature,m s-1 K,,
+uywg,covariance_of_wind_speed_and_z_wind,covariance of horizontal wind speed (Young anemometer on flux station) with vertical wind in z-direction  (Gill anemometer on flux station),m2 s-2,,
+uyTc2,covariance_of_x_wind_and_air_temperature,covariance of horizontal wind speed (Young anemometer on flux station) with thermocouple 2 air temperature ,m s-1 K,,
+wg,z_wind,vertical wind speed in z-direction (Gill anemometer on flux station),m s-1,,
+Tc2,air_temperature, air temperature from thermocouple 2,degrees_C,,
+Tc2Tc2,variance_of_air_temperature,variance of thermocouple 2 air temperature,K2,,
+wdir_Y,wind_from_direction,Wind from direction (Young on flux station),degrees,0,360

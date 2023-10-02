@@ -1,0 +1,6 @@
+
+*.0_nc
+Data/KNMI_deBilt/L0/deBilt.txt
+*.nc
+*.png
+*.pyc
