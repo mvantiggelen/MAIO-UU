@@ -23,3 +23,5 @@ conda install numpy pandas xarray netcdf4 scipy ipykernel
 
 ```
 This can take a few minutes.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mvantiggelen/MAIO-UU/HEAD)
