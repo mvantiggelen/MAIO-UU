@@ -1,6 +1,7 @@
 
 *.0_nc
 Data/KNMI_deBilt/L0/deBilt.txt
-*.nc
+Data/UU_BotanicalGardens_2023
 *.png
 *.pyc
+*.nc

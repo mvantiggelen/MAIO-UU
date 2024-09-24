@@ -1,0 +1,317 @@
+{
+  "attributes": {
+    "title": "Data from MAIO course",
+    "location": "Botanical Gardens",
+    "level": "L1",
+    "level_description": "Corrected raw measurements",
+    "source": "surface observation",
+    "featureType": "timeSeries",
+    "institution": "Institute for Marine and Atmospheric Research Utrecht (IMAU)",
+    "network_name": "UU-IMAU",
+    "reference": "https://www.projects.science.uu.nl/iceclimate/aws/",
+    "Conventions": "CF-1.7",
+    "time_convention": "Time is in UTC. The 'time: point' variables are valid for exactly the time value stored in the time coordinate, whereas 'time: mean' or 'time: standard_deviation' variables are valid for the 30min period BEFORE the time coordinate."
+  },
+  "variables": {
+    "TC1avg": {
+      "attributes": {
+        "long_name": "Air temperature thermocouple 1",
+        "standard_name": "air_temperature",
+        "units": "K",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "TC2avg": {
+      "attributes": {
+        "long_name": "Air temperature thermocouple 2",
+        "standard_name": "air_temperature",
+        "units": "K",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "TC1std": {
+      "attributes": {
+        "long_name": "Standard deviation of air temperature thermocouple 1",
+        "standard_name": "standard_deviation_of_air_temperature",
+        "units": "K",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: standard_deviation"
+      }
+    },
+    "TC2std": {
+      "attributes": {
+        "long_name": "Standard deviation of air temperature thermocouple 2",
+        "standard_name": "standard_deviation_of_air_temperature",
+        "units": "K",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: standard_deviation"
+      }
+    },
+    "T0": {
+      "attributes": {
+        "long_name": "Main / hut air temperature",
+        "standard_name": "air_temperature",
+        "units": "K",
+        "interval": "60s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "RH": {
+      "attributes": {
+        "long_name": "Main / hut air relative humidity",
+        "standard_name": "relative_humidity",
+        "units": "%",
+        "interval": "60s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "U": {
+      "attributes": {
+        "long_name": "Horizontal wind velocity",
+        "standard_name": "wind_speed",
+        "units": "meter second-1",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "Ustd": {
+      "attributes": {
+        "long_name": "Standard deviation of horizontal wind velocity",
+        "standard_name": "standard_deviation_of_wind_speed",
+        "units": "meter second-1",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: standard_deviation"
+      }
+    },
+    "WD": {
+      "attributes": {
+        "long_name": "Horizontal wind direction",
+        "standard_name": "wind_from_direction",
+        "units": "degN",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "w": {
+      "attributes": {
+        "long_name": "Vertical wind velocity",
+        "standard_name": "upward_air_velocity",
+        "units": "meter second-1",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "wstd": {
+      "attributes": {
+        "long_name": "Standard deviation of vertical wind velocity",
+        "standard_name": "standard_deviation_of_upward_air_velocity",
+        "units": "meter second-1",
+        "interval": "4s",
+        "resolution": "0.01",
+        "cell_methods": "time: standard_deviation"
+      }
+    },
+    "SWd": {
+      "attributes": {
+        "long_name": "Downwelling direct + diffuse shortwave radiation",
+        "standard_name": "downwelling_shortwave_flux_in_air",
+        "units": "watt meter-2",
+        "interval": "60s",
+        "resolution": "0.1",
+        "cell_methods": "time: mean"
+      }
+    },
+    "SWdstd": {
+      "attributes": {
+        "long_name": "Standard deviation of downwelling direct + diffuse shortwave radiation",
+        "standard_name": "standard_deviation_of_downwelling_shortwave_flux_in_air",
+        "units": "watt meter-2",
+        "interval": "60s",
+        "resolution": "0.1",
+        "cell_methods": "time: standard_deviation"
+      }
+    },
+    "SWu": {
+      "attributes": {
+        "long_name": "Upwelling direct + diffuse shortwave radiation",
+        "standard_name": "upwelling_shortwave_flux_in_air",
+        "units": "watt meter-2",
+        "interval": "60s",
+        "resolution": "0.1",
+        "cell_methods": "time: mean"
+      }
+    },
+    "LWd": {
+      "attributes": {
+        "long_name": "Downwelling longwave radiation",
+        "standard_name": "downwelling_longwave_flux_in_air",
+        "units": "watt meter-2",
+        "interval": "60s",
+        "resolution": "0.1",
+        "cell_methods": "time: mean"
+      }
+    },
+    "LWu": {
+      "attributes": {
+        "long_name": "Upwelling longwave radiation",
+        "standard_name": "upwelling_longwave_flux_in_air",
+        "units": "watt meter-2",
+        "interval": "60s",
+        "resolution": "0.1",
+        "cell_methods": "time: mean"
+      }
+    },
+    "NRTavg": {
+      "attributes": {
+        "long_name": "Net radiometer temperature average",
+        "standard_name": "air_temperature",
+        "units": "K",
+        "interval": "60s",
+        "resolution": "0.01",
+        "cell_methods": "time: mean"
+      }
+    },
+    "P0": {
+      "attributes": {
+        "long_name": "Barometric air pressure",
+        "standard_name": "air_pressure",
+        "units": "pascal",
+        "interval": "30min",
+        "resolution": "0.1",
+        "cell_methods": "time: point"
+      }
+    },
+    "zm": {
+      "attributes": {
+        "long_name": "Sonic ranger height",
+        "standard_name": "height",
+        "units": "meters",
+        "interval": "30min",
+        "resolution": "0.001",
+        "cell_methods": "time: point"
+      }
+    },
+    "ADW": {
+      "attributes": {
+        "long_name": "Ablation draw-wire",
+        "standard_name": "",
+        "units": "meters",
+        "interval": "30min",
+        "resolution": "0.001",
+        "cell_methods": "time: point"
+      }
+    },
+    "MCH": {
+      "attributes": {
+        "long_name": "Magnetic compass heading",
+        "standard_name": "",
+        "units": "degN",
+        "interval": "30min",
+        "resolution": "0.01",
+        "cell_methods": "time: point"
+      }
+    },
+    "LAT": {
+      "attributes": {
+        "long_name": "GPS latitude",
+        "standard_name": "latitude",
+        "units": "deg",
+        "interval": "30min",
+        "resolution": "1E-7",
+        "cell_methods": "time: point"
+      }
+    },
+    "LON": {
+      "attributes": {
+        "long_name": "GPS longitude",
+        "standard_name": "longitude",
+        "units": "deg",
+        "interval": "30min",
+        "resolution": "1E-7",
+        "cell_methods": "time: point"
+      }
+    },
+    "HMSL": {
+      "attributes": {
+        "long_name": "GPS height above mean sea-level",
+        "standard_name": "",
+        "units": "meter",
+        "interval": "30min",
+        "resolution": "0.001",
+        "cell_methods": "time: point"
+      }
+    },
+    "HACC": {
+      "attributes": {
+        "long_name": "GPS horizontal accuracy",
+        "standard_name": "",
+        "units": "meter",
+        "interval": "30min",
+        "resolution": "0.001",
+        "cell_methods": "time: point"
+      }
+    },
+    "TILTX": {
+      "attributes": {
+        "long_name": "Tilt Pitch inclinometer",
+        "standard_name": "",
+        "units": "deg",
+        "interval": "30min",
+        "resolution": "0.1",
+        "cell_methods": "time: point"
+      }
+    },
+    "TILTY": {
+      "attributes": {
+        "long_name": "Tilt Roll inclinometer",
+        "standard_name": "",
+        "units": "deg",
+        "interval": "30min",
+        "resolution": "0.1",
+        "cell_methods": "time: point"
+      }
+    },
+    "VBAT": {
+      "attributes": {
+        "long_name": "power supply voltage, lithium battery or solar capacitor",
+        "standard_name": "",
+        "units": "Volt",
+        "interval": "30min",
+        "resolution": "0.001",
+        "cell_methods": "time: point"
+      }
+    },
+    "LBUT": {
+      "attributes": {
+        "long_name": "Lithium battery usage time",
+        "standard_name": "",
+        "units": "days",
+        "interval": "1s",
+        "resolution": "0.1",
+        "cell_methods": "time: mean"
+      }
+    },
+    "STATUS": {
+      "attributes": {
+        "long_name": "Status flag",
+        "standard_name": "",
+        "units": "",
+        "interval": "",
+        "resolution": "",
+        "cell_methods": "time: point"
+      }
+    }
+  }
+}
